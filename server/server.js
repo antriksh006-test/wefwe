@@ -40,3 +40,5 @@ app.get('*', (req, res) => {
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`🚀 Server is live on port ${PORT}`);
 });
+// Add this at the very end of your server.js
+module.exports = app;
