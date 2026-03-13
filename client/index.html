@@ -19,8 +19,7 @@
        async function fetchQuote() {
     try {
         // Adding the leading slash / ensures it looks at the root of your server
-        const response = await fetch('/api/quote'); 
-        https://github.com/antriksh006-test/backend-test-.git
+        const response = await fetch('/api/quote');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
